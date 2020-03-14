@@ -1,4 +1,4 @@
-module.exports = function(data, filename, mime, bom) {
+function fileDownload(data, filename, mime, bom) {
     var blobData = (typeof bom !== 'undefined') ? [bom, data] : [data]
     var blob = new Blob(blobData, {type: mime || 'application/octet-stream'});
     if (typeof window.navigator.msSaveBlob !== 'undefined') {

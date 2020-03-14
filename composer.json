@@ -1,0 +1,8 @@
+{
+    "name": "sgrins/js-file-download",
+    "description": "Javascript function that triggers browser to save javascript-generated content to a file",
+    "type": "component",
+    "keywords": ["serverless","javascript","file","download"],
+    "homepage": "https://github.com/sgrins/js-file-download",
+    "license": "MIT"
+}
